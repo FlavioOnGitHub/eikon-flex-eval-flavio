@@ -108,8 +108,24 @@
 
 .exercice-8 .element-pink {
   order: 1;
+  flex-grow: 1;
 }
+
+.exercice-8 .element-yellow {
+  flex-grow: 1;
+}
+
 /* 9. exercice-9 */
+.exercice-9 .container {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: baseline;
+}
+
+.exercice-9 .element {
+  width: 50%;
+  box-sizing: border-box;
+}
 
 /* 10. exercice-10 */
 
