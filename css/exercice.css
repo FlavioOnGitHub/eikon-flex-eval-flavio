@@ -60,7 +60,35 @@
 }
 
 /* 6. exercice-6 */
+.exercice-6 .container {
+  display: flex;
+  flex-flow: row wrap-reverse;
+  align-content: space-between;
+}
 
+.exercice-6 .element-pink {
+  flex-grow: 1;
+}
+
+.exercice-6 .element-grey {
+  flex-grow: 0.5;
+}
+
+.exercice-6 .element-yellow {
+  flex-grow: 0.5;
+}
+
+.exercice-6 .element-red {
+  flex-grow: calc(1/3);
+}
+
+.exercice-6 .element-blue {
+  flex-grow: calc(1/3);
+}
+
+.exercice-6 .element-green {
+  flex-grow: calc(1/3);
+}
 /* 7. exercice-7 */
 
 /* 8. exercice-8 */
